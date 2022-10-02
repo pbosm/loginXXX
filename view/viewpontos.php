@@ -32,13 +32,13 @@ require_once "../layout/verifica-acesso.php";
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="../layout/lancapontos.php">
                         <span class="icon"><ion-icon name="cart-outline"></ion-icon></ion-icon></span>
                         <span class="title">Lançamento de pontos</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="../layout/relatorio.php">
                         <span class="icon"><ion-icon name="document-text-outline"></ion-icon></span>
                         <span class="title">Relatório</span>
                     </a>
