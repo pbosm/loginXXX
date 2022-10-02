@@ -106,7 +106,7 @@ require_once "verifica-acesso.php";
              <div class="details">
                  <div class="recentOrders">
                      <div class="cardHeader">
-                         <h2>Usuários</h2>
+                         <h2>Colaboradores</h2>
                          <form method="get">
                          <select name="filtro" id="" style="margin-left: 555px;margin-top: 5px;">
                             <option value="nome">Filtar por Nome</option>
@@ -128,7 +128,7 @@ require_once "verifica-acesso.php";
                        <tr>
                         <?php
                             $filtro = filter_input(INPUT_GET, 'filtro', FILTER_SANITIZE_STRING);
-                            
+
                             if($filtro == 'nome') {
                                 $sql = "SELECT * FROM colaboradores ORDER BY colaboradores.nome ASC";
                                 $resultado = $conn->query($sql);
