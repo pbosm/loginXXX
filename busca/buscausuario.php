@@ -80,6 +80,7 @@ require_once "../layout/verifica-acesso.php";
                      <table>
                          <thead>
                              <tr>
+                                <td>Nome</td> 
                                 <td>E-mail</td>
                                 <td>CPF</td>
                              </tr>                            
@@ -89,7 +90,7 @@ require_once "../layout/verifica-acesso.php";
                             <?php
                                 $pesquisar = $_POST['pesquisar'];
 
-                                $sql = "SELECT * FROM usuarios where email like '%$pesquisar%'";
+                                $sql = "SELECT * FROM usuarios where nome like '%$pesquisar%'";
                                 $resultado = $conn->query($sql);
  
                                 while ($registro = $resultado->fetch_array())
@@ -107,6 +108,7 @@ require_once "../layout/verifica-acesso.php";
 
                                    
                                     echo "<tr>
+                                    <td> $nome</td>
                                     <td> $email</td>
                                     <td> $cpf</td>
                                     </td>";
