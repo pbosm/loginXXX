@@ -17,7 +17,7 @@ Aqui estão as tecnologias usadas neste projeto.
 * MySQL
 
 ## Como rodar
-- Após clonar o repositorio e colocar em alguma pasta dentro do dir htdocs (servidor xampp) ou www caso utilize o servidor (wampp) terá que criar uma tabela no banco de dados (preferencia mysql/phpmyadmin) com o nome de 'bdteste', (o banco de dados está também dentro desse repositorio) nela já tem alguns Usuários e colaboradores teste
+- Após clonar o repositorio e colocar em alguma pasta dentro do dir htdocs servidor xampp ou www caso utilize wampp terá que criar uma tabela no banco de dados (preferencia mysql/phpmyadmin) com o nome de 'bdteste', (o banco de dados está dentro desse repositorio) nela já tem alguns Usuários e colaboradores teste
 - Feito isso e abrindo o localhost e o nome da pasta onde você clonou o respositorio abrirá uma página index, nessa página estará pedindo para fazer login, caso não tenha terá a opção de criar uma conta
 - Conta feita, volte para a página index(login), e se conecte utilizando suas credenciais
 - Após se conectar utilizando seu login/senha entrará para área restrita, onde apenas pessoas logadas no sistema poderá acessar
