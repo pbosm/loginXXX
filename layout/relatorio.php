@@ -108,7 +108,7 @@ require_once "verifica-acesso.php";
                      <div class="cardHeader">
                          <h2>Colaboradores</h2>
                          <form method="get">
-                         <select name="filtro" id="" style="margin-left: 555px;margin-top: 5px;">
+                         <select name="filtro" id="" style="position: absolute; margin-left: -135px;margin-top: 5px;">
                             <option value="nome">Filtar por Nome</option>
                             <option value="data">Filtar por Data</option>
                          </select>
