@@ -192,7 +192,7 @@ require_once "verifica-acesso.php";
                                     <td> $cpf</td>
                                     <td> $data</td>
                                     <td> $pontos</td>
-                                    <td width=280px><a href='../view/viewpontos?id=$id&nome=$nome' class='button' onclick='show()' style='position: relative;padding: 5px 10px;background: var(--green);text-decoration: none;color: var(--white);border-radius: 6px;'>Adicionar/Modificar</a>
+                                    <td width=280px><a href='../view/viewpontos.php?id=$id&nome=$nome' class='button' onclick='show()' style='position: relative;padding: 5px 10px;background: var(--green);text-decoration: none;color: var(--white);border-radius: 6px;'>Adicionar/Modificar</a>
                                     </td>";
                                 }
                             ?>
