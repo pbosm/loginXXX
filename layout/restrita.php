@@ -1,7 +1,6 @@
 <?php
 require_once "../database/conn.php";
 require_once "verifica-acesso.php";
-require_once "../header/navbar.php";
 ?>
 
              <!-- cards -->
