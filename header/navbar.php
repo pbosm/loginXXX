@@ -12,7 +12,7 @@
                 <li>
                     <a href="#">
                         <span class=""><img src=""></span>
-                        <span id="title" class="title">Projeto – XXX</span>
+                        <span id="title" class="title">Projeto – XXX </span>
                     </a>
                 </li>
                 <li>
