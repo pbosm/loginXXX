@@ -158,16 +158,16 @@ require_once "../header/navbar.php";
             }          
         }
 
-        //add hovered valss in selected list item
-        let list = document.querySelectorAll('.navigantion li');
-        function activeLink()
-        {
-            list.forEach((item) =>
-            item.classList.remove('hovered'));
-            this.classList.add('hovered');
-        }
-        list.forEach((item) =>
-        item.addEventListener('mouseover',activeLink));
+        // //add hovered valss in selected list item
+        // let list = document.querySelectorAll('.navigantion li');
+        // function activeLink()
+        // {
+        //     list.forEach((item) =>
+        //     item.classList.remove('hovered'));
+        //     this.classList.add('hovered');
+        // }
+        // list.forEach((item) =>
+        // item.addEventListener('mouseover',activeLink));
     </script>
 
 </body>

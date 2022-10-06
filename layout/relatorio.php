@@ -116,7 +116,7 @@ require_once "../header/navbar.php";
                                     $id     =  $registro[0];
                                     $nome   =  $registro[1];
                                     $email  =  $registro[2];
-                                    $cpf    =  $registro[4];  
+                                    $cpf    =  $registro[3];  
                                     $data   =  $registro[4];                                                            
 
                                     $id        = htmlentities($id, ENT_QUOTES, "UTF-8");
@@ -162,16 +162,16 @@ require_once "../header/navbar.php";
             }          
         }
 
-        //add hovered valss in selected list item
-        let list = document.querySelectorAll('.navigantion li');
-        function activeLink()
-        {
-            list.forEach((item) =>
-            item.classList.remove('hovered'));
-            this.classList.add('hovered');
-        }
-        list.forEach((item) =>
-        item.addEventListener('mouseover',activeLink));
+        // //add hovered valss in selected list item
+        // let list = document.querySelectorAll('.navigantion li');
+        // function activeLink()
+        // {
+        //     list.forEach((item) =>
+        //     item.classList.remove('hovered'));
+        //     this.classList.add('hovered');
+        // }
+        // list.forEach((item) =>
+        // item.addEventListener('mouseover',activeLink));
     </script>
 
 </body>
