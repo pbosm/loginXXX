@@ -134,6 +134,14 @@ body
     pointer-events: none;
 }
 
+.navigantion ul li a .title {
+    transition: .2s;
+}
+
+.navigantion ul li a:hover .title {
+    margin-left: 6px;
+}
+
 /* main */
 .main
 {
@@ -333,6 +341,7 @@ body
 }
 .details .recentOrders table tr td
 {
+    white-space: pre;
     padding: 10px;
     text-align: center;
 }
@@ -436,23 +445,45 @@ body
 
 /* responsive design*/
 @media (max-width: 991px)
-{
-   .main.active
-   {
-    left: 300px;
-   }
+{  
+    .details
+    {
+        left: -5px;
+        width: 465px;
+        font-size: xx-small;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .search label ion-icon
+    {
+        left: 23px;
+    }
+    .search label input 
+    {
+        width: 225px;
+        margin-top: 5px;
+        margin-left: 15px;
+    } 
    .cardBox
    {
+       left: -10px;
        grid-template-columns: repeat(2,1fr);
    }
    .user{
-    visibility: hidden;
+        visibility: hidden;
    }
 }
 @media (max-width: 768px)
 {
+    .cardBox
+    {
+        left: -10px;
+        grid-template-columns: repeat(2,1fr);
+    }
     .details
     {
+        left: -5px;
+        width: 465px;
+        font-size: xx-small;
         grid-template-columns: repeat(1,1fr);
     }
     .recentOrders

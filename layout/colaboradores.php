@@ -66,7 +66,8 @@ require_once "../header/navbar.php";
                                 <td>E-mail</td>
                                 <td>CPF</td>
                                 <td>Data</td>
-                                <td>Opções</td>
+                                <td>Editar</td>
+                                <td>Excluir</td>
                              </tr>                            
                          </thead>
                          <tbody>
@@ -94,8 +95,8 @@ require_once "../header/navbar.php";
                                     <td> $email</td>
                                     <td> $cpf</td>
                                     <td> $data</td>
-                                    <td width=280px><a href='../view/viewupdate.php?id=$id&nome=$nome' class='button' style='position: relative;padding: 5px 10px;background: var(--green);text-decoration: none;color: var(--white);border-radius: 6px;'>Editar</a>
-                                    <a width=280px><a href='../crud/delete.php?id=$id&nome=$nome' class='button' style='position: relative;padding: 5px 10px;background: var(--red);text-decoration: none;color: var(--white);border-radius: 6px;'>Excluir</a>
+                                    <td width=280px><a href='../view/viewupdate.php?id=$id&nome=$nome' class='button' style='position: relative;padding: 5px 10px;background: var(--green);text-decoration: none;color: var(--white);border-radius: 6px;'>Editar</a></td>
+                                    <td width=280px><a width=280px><a href='../crud/delete.php?id=$id&nome=$nome' class='button' style='position: relative;padding: 5px 10px;background: var(--red);text-decoration: none;color: var(--white);border-radius: 6px;'>Excluir</a></td>
                                     </td>";
                                 }
                             ?>

@@ -134,6 +134,14 @@ body
     pointer-events: none;
 }
 
+.navigantion ul li a .title {
+    transition: .2s;
+}
+
+.navigantion ul li a:hover .title {
+    margin-left: 5px;
+}
+
 /* main */
 .main
 {
